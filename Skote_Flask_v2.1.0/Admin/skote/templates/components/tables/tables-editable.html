@@ -1,0 +1,2445 @@
+{% extends 'partials/base.html' %}
+{% block title %} Editable Tables {% endblock title %}
+
+{% block content %}
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Editable Table</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Tables</a></li>
+                    <li class="breadcrumb-item active">Editable Table</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title">Table Edit</h4>
+                <p class="card-title-desc">Table Edits is a lightweight jQuery plugin for making table rows editable.</p>
+
+                <div class="table-responsive">
+                    <table class="table table-editable table-nowrap align-middle table-edits">
+                        <thead>
+                            <tr>
+                                <th>RCS_ID</th>
+                                <th>Filing_ID</th>
+                                <th>Filing_Date</th>
+                                <th>DP_ID</th>
+                                <th>Unique_ID</th>
+                                <th>DP_Name</th>
+                                <th>DP_Value</th>
+                                <th>SQL_002</th>
+                                <th>Only API</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+<tr data-id="1">
+	<td data-field="RCS_ID">RCS_ID</td>
+	<td data-field="Filing_ID">Filing_ID</td>
+	<td data-field="Filing_Date">Filing_Date</td>
+	<td data-field="DP_ID">DP_ID</td>
+	<td data-field="Unique_ID">Unique_ID</td>
+	<td data-field="DP_Name">DP_Name </td>
+	<td data-field="DP_Value">DP_Value </td>
+	<td data-field="SQL_002">SQL_002</td>
+</td>	<td data-field="Only API">Only API
+</td>
+ </td>	<td data-field="Only API"> Only API
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="2">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_501</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Name </td>
+	<td data-field="DP_Value">Alpha </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="3">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_502</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of the business name </td>
+	<td data-field="DP_Value">Alp </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="4">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_503</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Business names </td>
+	<td data-field="DP_Value">Alpha Business </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="5">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_504</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Legal form </td>
+	<td data-field="DP_Value">Société anonyme </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="6">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_505</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of legal form </td>
+	<td data-field="DP_Value">SA </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="7">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_506</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Registration date </td>
+	<td data-field="DP_Value">1/Jan/2001 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="8">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_507</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Other names </td>
+	<td data-field="DP_Value">"Delta </td>
+	<td data-field="SQL_002"> Mango"</td>
+	<td data-field="Only API">Y</td>
+</td>
+	<td data-field="Only API"> Y </td>
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="9">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_508</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of other name </td>
+	<td data-field="DP_Value">"Del </td>
+	<td data-field="SQL_002"> Man"</td>
+	<td data-field="Only API">Y</td>
+</td>
+	<td data-field="Only API"> Y </td>
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="10">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_509</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Building number </td>
+	<td data-field="DP_Value">1 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="11">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_510</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Street </td>
+	<td data-field="DP_Value">First Street </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="12">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_511</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Postcode </td>
+	<td data-field="DP_Value">123456 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="13">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_512</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Locality </td>
+	<td data-field="DP_Value">Locality 1 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="14">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_513</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">NACE code </td>
+	<td data-field="DP_Value">Code 1 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">Y
+</td>
+ </td>	<td data-field="Only API"> Y
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="15">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_514</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">NACE designation </td>
+	<td data-field="DP_Value">Designation 1 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">Y
+</td>
+ </td>	<td data-field="Only API"> Y
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="16">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_515</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Domiciliary name </td>
+	<td data-field="DP_Value">Agent 1 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="17">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_516</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Domiciliary agent appointment: </td>
+	<td data-field="DP_Value">1/Jan/2001 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="18">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_517</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Date of submission of notice of termination of the domiciliary agrement </td>
+	<td data-field="DP_Value">1/Feb/2001 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="19">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_002</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Duration unlimited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="20">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_006</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">First financial period: From </td>
+	<td data-field="DP_Value">1/Jan/2001 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="21">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_007</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">First financial period: To </td>
+	<td data-field="DP_Value">31/Dec/2001 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="22">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_008</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Fiscal year: From </td>
+	<td data-field="DP_Value">01/01 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="23">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_009</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Fiscal year: To </td>
+	<td data-field="DP_Value">31/12 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="24">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_011</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Last Name </td>
+	<td data-field="DP_Value">JONES </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="25">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_012</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: First Name </td>
+	<td data-field="DP_Value">John </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="26">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_013</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Date of Birth </td>
+	<td data-field="DP_Value">10/Oct/1910 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="27">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_014</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Place of Birth </td>
+	<td data-field="DP_Value">Paris </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="28">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_015</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Country of Birth </td>
+	<td data-field="DP_Value">France </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="29">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_039</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">Mandate: limited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="30">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_042</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">Mandate: expiration (Date) </td>
+	<td data-field="DP_Value">5/May/2005 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="31">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_041</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">Mandate: appointment / renewal date </td>
+	<td data-field="DP_Value">1/Jan/2001 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="32">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_032</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Street </td>
+	<td data-field="DP_Value">Second Street </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="33">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_033</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Building Number </td>
+	<td data-field="DP_Value">2 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="34">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_034</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Building Name </td>
+	<td data-field="DP_Value">Good Building </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="35">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_035</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Floor </td>
+	<td data-field="DP_Value">First Floor </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="36">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_036</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Post Code </td>
+	<td data-field="DP_Value">123456 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="37">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_037</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: City </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="38">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_038</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="39">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_052</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Capital Variable </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="40">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_054</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Denomination </td>
+	<td data-field="DP_Value">EUR </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="41">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_055</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Social Object </td>
+	<td data-field="DP_Value">social object 1 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="42">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_056</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Social Object complete vs incomplete </td>
+	<td data-field="DP_Value">FALSE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="43">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_049</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Signatory regime </td>
+	<td data-field="DP_Value">Any one manager </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="44">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_044</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Governing body name </td>
+	<td data-field="DP_Value">Governing body Name </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="45">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_045</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Function of the manager </td>
+	<td data-field="DP_Value">Manager Function </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="46">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_046</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Type of manager </td>
+	<td data-field="DP_Value">Type of Manager </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="47">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000001</td>
+	<td data-field="Filing_Date">1/Jan/2001</td>
+	<td data-field="DP_ID">DP_050</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Signatory powers </td>
+	<td data-field="DP_Value">Signatory Power </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="48">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_501</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Name </td>
+	<td data-field="DP_Value">Bravo </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="49">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_502</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of the business name </td>
+	<td data-field="DP_Value">Bra </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="50">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_503</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Business names </td>
+	<td data-field="DP_Value">Bravo Business </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="51">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_504</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Legal form </td>
+	<td data-field="DP_Value">Société à responsibilité limitée </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="52">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_505</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of legal form </td>
+	<td data-field="DP_Value">S.à r.l. </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="53">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_507</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Other names </td>
+	<td data-field="DP_Value"> </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="54">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_508</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Abbreviation of other name </td>
+	<td data-field="DP_Value"> </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="55">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_509</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Building number </td>
+	<td data-field="DP_Value">2 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="56">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_510</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Street </td>
+	<td data-field="DP_Value">Second Street </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="57">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_511</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Postcode </td>
+	<td data-field="DP_Value">654321 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="58">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_512</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Locality </td>
+	<td data-field="DP_Value">Locality 2 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="59">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_515</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Domiciliary name </td>
+	<td data-field="DP_Value">Agent 2 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="60">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_516</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Domiciliary agent appointment: </td>
+	<td data-field="DP_Value">1/Feb/2001 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="61">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_003</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Duration limited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="62">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_005</td>
+	<td data-field="Unique_ID">n/a</td>
+	<td data-field="DP_Name">Duration end date </td>
+	<td data-field="DP_Value">3/Mar/2003 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="63">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_039</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">Mandate: limited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="64">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_011</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Last Name </td>
+	<td data-field="DP_Value">CLAUS </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="65">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_012</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: First Name </td>
+	<td data-field="DP_Value">Santa </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="66">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_013</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Date of Birth </td>
+	<td data-field="DP_Value">1/Jan/1087 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="67">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_014</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Place of Birth </td>
+	<td data-field="DP_Value">Athens </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="68">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_015</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Country of Birth </td>
+	<td data-field="DP_Value">Greece </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="69">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_041</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">Mandate: appointment / renewal date </td>
+	<td data-field="DP_Value">2/Feb/2002 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="70">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_043</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">Mandate: expiration (date of AGM) </td>
+	<td data-field="DP_Value">2003 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="71">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_011</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Last Name </td>
+	<td data-field="DP_Value">BRAVO </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="72">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_012</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: First Name </td>
+	<td data-field="DP_Value">Johny </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="73">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_013</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Date of Birth </td>
+	<td data-field="DP_Value">1/Jan/1990 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="74">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_014</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Place of Birth </td>
+	<td data-field="DP_Value">London </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="75">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_015</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Country of Birth </td>
+	<td data-field="DP_Value">United Kingdom </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="76">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_040</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">Mandate: unlimited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="77">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_032</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Street </td>
+	<td data-field="DP_Value">Third Street </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="78">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_033</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Building Number </td>
+	<td data-field="DP_Value">3 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="79">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_034</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Building Name </td>
+	<td data-field="DP_Value">Better Building </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="80">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_035</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Floor </td>
+	<td data-field="DP_Value">Second Floor </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="81">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_036</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Post Code </td>
+	<td data-field="DP_Value">456789 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="82">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_037</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: City </td>
+	<td data-field="DP_Value">Munsbach </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="83">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_038</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="84">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_032</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Street </td>
+	<td data-field="DP_Value">Third Street </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="85">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_033</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Building Number </td>
+	<td data-field="DP_Value">3 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="86">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_034</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Building Name </td>
+	<td data-field="DP_Value">Better Building </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="87">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_035</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Floor </td>
+	<td data-field="DP_Value">Second Floor </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="88">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_036</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Post Code </td>
+	<td data-field="DP_Value">456789 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="89">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_037</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: City </td>
+	<td data-field="DP_Value">Munsbach </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="90">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_038</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="91">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_032</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Street </td>
+	<td data-field="DP_Value">Third Street </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="92">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_033</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Building Number </td>
+	<td data-field="DP_Value">3 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="93">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_034</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Building Name </td>
+	<td data-field="DP_Value">Better Building </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="94">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_035</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Floor </td>
+	<td data-field="DP_Value">Second Floor </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="95">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_036</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Post Code </td>
+	<td data-field="DP_Value">456789 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="96">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_037</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: City </td>
+	<td data-field="DP_Value">Munsbach </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="97">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_038</td>
+	<td data-field="Unique_ID">MG_001</td>
+	<td data-field="DP_Name">MG: Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="98">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_051</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Capital Fixed </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="99">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_053</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Capital amount </td>
+	<td data-field="DP_Value">20000 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="100">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_054</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Denomination </td>
+	<td data-field="DP_Value">USD </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="101">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_055</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Social Object </td>
+	<td data-field="DP_Value">Social Object 2 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="102">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_056</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Social Object complete vs incomplete </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="103">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_016</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Name of the entity </td>
+	<td data-field="DP_Value">Manager Company </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="104">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_017</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Registration number </td>
+	<td data-field="DP_Value">987654 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="105">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_018</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Name of the Business Register </td>
+	<td data-field="DP_Value">RCS </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="106">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_019</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="107">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_032</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Street </td>
+	<td data-field="DP_Value">Third Street </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="108">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_033</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Building Number </td>
+	<td data-field="DP_Value">3 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="109">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_034</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Building Name </td>
+	<td data-field="DP_Value">Better Building </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="110">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_035</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Floor </td>
+	<td data-field="DP_Value">Second Floor </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="111">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_036</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Post Code </td>
+	<td data-field="DP_Value">456789 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="112">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_037</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: City </td>
+	<td data-field="DP_Value">Munsbach </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="113">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_038</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Country </td>
+	<td data-field="DP_Value">Luxembourg </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="114">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_041</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Mandate: appointment / renewal date </td>
+	<td data-field="DP_Value">03/03/2023 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="115">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_039</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Mandate: limited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="116">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_043</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">Mandate: expiration (date of AGM) </td>
+	<td data-field="DP_Value">2003 </td>
+	<td data-field="SQL_002"></td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="117">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_049</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Signatory regime </td>
+	<td data-field="DP_Value">Any two managers </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="118">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_044</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Governing body name </td>
+	<td data-field="DP_Value">Governing body Name </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="119">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_045</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Function of the manager </td>
+	<td data-field="DP_Value">Manager Function </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="120">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_046</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Type of manager </td>
+	<td data-field="DP_Value">Type of Manager </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="121">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_050</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">MG: Signatory powers </td>
+	<td data-field="DP_Value">Signatory Power </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="122">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_044</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Governing body name </td>
+	<td data-field="DP_Value">Governing body Name </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="123">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_045</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Function of the manager </td>
+	<td data-field="DP_Value">Manager Function </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="124">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_046</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Type of manager </td>
+	<td data-field="DP_Value">Type of Manager </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="125">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_050</td>
+	<td data-field="Unique_ID">MG_003</td>
+	<td data-field="DP_Name">MG: Signatory powers </td>
+	<td data-field="DP_Value">Signatory Power </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="126">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_044</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Governing body name </td>
+	<td data-field="DP_Value">Governing body Name </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="127">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_045</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Function of the manager </td>
+	<td data-field="DP_Value">Manager Function </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="128">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_046</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Type of manager </td>
+	<td data-field="DP_Value">Type of Manager </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="129">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000002</td>
+	<td data-field="Filing_Date">2/Feb/2002</td>
+	<td data-field="DP_ID">DP_050</td>
+	<td data-field="Unique_ID">MG_004</td>
+	<td data-field="DP_Name">MG: Signatory powers </td>
+	<td data-field="DP_Value">Signatory Power </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="130">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000003</td>
+	<td data-field="Filing_Date">3/Mar/2003</td>
+	<td data-field="DP_ID">DP_004</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Duration extended </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="131">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000003</td>
+	<td data-field="Filing_Date">3/Mar/2003</td>
+	<td data-field="DP_ID">DP_005</td>
+	<td data-field="Unique_ID"></td>
+	<td data-field="DP_Name">Duration end date </td>
+	<td data-field="DP_Value">31/Dec/2050 </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+<tr data-id="132">
+	<td data-field="RCS_ID">B000001</td>
+	<td data-field="Filing_ID">L000000003</td>
+	<td data-field="Filing_Date">3/Mar/2003</td>
+	<td data-field="DP_ID">DP_040</td>
+	<td data-field="Unique_ID">MG_002</td>
+	<td data-field="DP_Name">Mandate: unlimited </td>
+	<td data-field="DP_Value">TRUE </td>
+	<td data-field="SQL_002">Y</td>
+</td>	<td data-field="Only API">
+</td>
+ </td>	<td data-field="Only API"> 
+	<td style="width: 100px">
+		<a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+			<i class="fas fa-pencil-alt"></i>
+		</a>
+	</td>
+</tr>
+
+
+                        </tbody>
+                        </table>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- end col -->
+</div> <!-- end row -->
+
+</div> <!-- container-fluid -->
+</div>
+<!-- End Page-content -->
+
+{% endblock content %}
+{% block extra_javascript %}
+<!-- Table Editable plugin -->
+<script src="{{url_for('static' ,filename='libs/table-edits/build/table-edits.min.js')}}"></script>
+
+<script src="{{url_for('static' ,filename='js/pages/table-editable.int.js')}}"></script> 
+{% endblock extra_javascript %}
