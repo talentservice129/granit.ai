@@ -42,6 +42,7 @@ def create_app():
     from .utility import utility
     from .components import components
     from .layouts import layouts
+    from .pages import pages
 
     app.register_blueprint(dashboards ,url_prefix="/")
     app.register_blueprint(apps ,url_prefix="/")
@@ -58,5 +59,6 @@ def create_app():
     app.register_blueprint(utility ,url_prefix="/")   
     app.register_blueprint(components ,url_prefix="/")
     app.register_blueprint(layouts ,url_prefix="/")
+    app.register_blueprint(pages ,url_prefix="/")
 
     return app  

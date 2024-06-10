@@ -4878,4 +4878,29 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before {
 .jobs-categories a:hover {
   color: #556ee6;
 }
+
+#datatable-buttons_wrapper .col-md-6:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+#datatable-buttons_wrapper .dataTables_length label {
+  margin-bottom: 0;
+}
+
+.topnav {
+  top: 0;
+}
+
+@media (min-width: 992px) {
+  .topnav {
+    right: 250px;
+  }
+}
 /*# sourceMappingURL=app-rtl.min.css.map */

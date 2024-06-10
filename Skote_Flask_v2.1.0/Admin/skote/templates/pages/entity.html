@@ -1,0 +1,120 @@
+{% extends 'partials/base.html' %}
+{% block title %} Data Tables {% endblock title %}
+
+{% block extra_css %}
+<!-- DataTables -->
+<link href="{{url_for('static' ,filename='libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
+<link href="{{url_for('static' ,filename='libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
+
+<!-- Responsive datatable examples -->
+<link href="{{url_for('static' ,filename='libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
+{% endblock extra_css %}
+
+{% block content %}
+<!-- start page title -->
+<ul class="nav nav-tabs page-bars mb-4">
+	<li class="nav-item">
+		<a class="nav-link active" href="/main">
+			<span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+			<span class="d-none d-sm-block">General</span>    
+		</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="/main/kpis">
+			<span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+			<span class="d-none d-sm-block">KPI's</span>    
+		</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="/main/history">
+			<span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+			<span class="d-none d-sm-block">History</span>    
+		</a>
+	</li>
+</ul>
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+            <h4 class="mb-sm-0 font-size-18">Main Page</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Main Page</a></li>
+                    <li class="breadcrumb-item active">General</li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title">Summary Datatable</h4>
+                <p class="card-title-desc">The Buttons extension for DataTables
+                    provides a common set of options, API methods and styling to display
+                    buttons on a page that will interact with a DataTable. The core library
+                    provides the based framework upon which plug-ins can built.
+                </p>
+
+                <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
+                    <thead>
+						<tr>
+							<th>#</th>
+							{% for column in headers %}
+								<th>{{ column }}</th>
+							{% endfor %}
+						</tr>
+                    </thead>
+
+                    <tbody>
+						{% for item in data %}
+							<tr>
+								<td>
+									<div class="d-none">{{loop.index0}}</div>
+									<div class="form-check font-size-16">
+										<input class="form-check-input" type="checkbox" id="customerlistcheck-{{loop.index0}}">
+										<label class="form-check-label" for="customerlistcheck-{{loop.index0}}"></label>
+									</div>
+								</td>
+								{% for key in item %}
+									<td>{{ key }}</td>
+								{% endfor %}
+							</tr>
+						{% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div> <!-- end col -->
+</div> <!-- end row -->
+
+</div> <!-- container-fluid -->
+</div>
+<!-- End Page-content -->
+
+{% endblock content %}
+{% block extra_javascript %}
+<!-- Required datatable js -->
+<script src="{{url_for('static' ,filename='libs/datatables.net/js/jquery.dataTables.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js')}}"></script>
+<!-- Buttons examples -->
+<script src="{{url_for('static' ,filename='libs/datatables.net-buttons/js/dataTables.buttons.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/jszip/dist/jszip.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/pdfmake/build/pdfmake.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/pdfmake/build/vfs_fonts.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/datatables.net-buttons/js/buttons.html5.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/datatables.net-buttons/js/buttons.print.min.js')}}"></script>
+
+<!-- Responsive examples -->
+<script src="{{url_for('static' ,filename='libs/datatables.net-responsive/js/dataTables.responsive.min.js')}}"></script>
+<script src="{{url_for('static' ,filename='libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js')}}"></script>
+
+<!-- Datatable init js -->
+<script src="{{url_for('static' ,filename='js/pages/main.init.js')}}"></script>
+{% endblock extra_javascript %}

@@ -1,0 +1,25 @@
+#datatable-buttons_wrapper {
+    .col-md-6:first-child {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    
+    .dataTables_length label {
+        margin-bottom: 0;
+    }
+}
+
+// .nav.page-bars {
+//     justify-content: center;
+//     border: none;
+// }
+.topnav {
+    top: 0;
+}
+
+@media (min-width: 992px) {
+    .topnav {
+        left: 250px;
+    }
+}

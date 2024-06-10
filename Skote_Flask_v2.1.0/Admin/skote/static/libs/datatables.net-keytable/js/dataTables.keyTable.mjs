@@ -1,4 +1,4 @@
-/*! KeyTable 2.10.0
+/*! KeyTable 2.12.1
  * © SpryMedia Ltd - datatables.net/license
  */
 
@@ -12,7 +12,7 @@ let $ = jQuery;
 /**
  * @summary     KeyTable
  * @description Spreadsheet like keyboard navigation for DataTables
- * @version     2.10.0
+ * @version     2.12.1
  * @file        dataTables.keyTable.js
  * @author      SpryMedia Ltd
  * @contact     datatables.net
@@ -424,64 +424,69 @@ $.extend(KeyTable.prototype, {
 		var dt = this.s.dt;
 		var that = this;
 		var namespace = this.s.namespace;
+		var opts = this.c.clipboard;
 
 		// IE8 doesn't support getting selected text
 		if (!window.getSelection) {
 			return;
 		}
 
-		$(document).on('copy' + namespace, function (ejq) {
-			var e = ejq.originalEvent;
-			var selection = window.getSelection().toString();
-			var focused = that.s.lastFocus;
+		if (opts === true || opts.copy) {
+			$(document).on('copy' + namespace, function (ejq) {
+				var e = ejq.originalEvent;
+				var selection = window.getSelection().toString();
+				var focused = that.s.lastFocus;
 
-			// Only copy cell text to clipboard if there is no other selection
-			// and there is a focused cell
-			if (!selection && focused) {
-				e.clipboardData.setData(
-					'text/plain',
-					focused.cell.render(that.c.clipboardOrthogonal)
-				);
-				e.preventDefault();
-			}
-		});
-
-		$(document).on('paste' + namespace, function (ejq) {
-			var e = ejq.originalEvent;
-			var focused = that.s.lastFocus;
-			var activeEl = document.activeElement;
-			var editor = that.c.editor;
-			var pastedText;
-
-			if (focused && (!activeEl || activeEl.nodeName.toLowerCase() === 'body')) {
-				e.preventDefault();
-
-				if (window.clipboardData && window.clipboardData.getData) {
-					// IE
-					pastedText = window.clipboardData.getData('Text');
+				// Only copy cell text to clipboard if there is no other selection
+				// and there is a focused cell
+				if (!selection && focused) {
+					e.clipboardData.setData(
+						'text/plain',
+						focused.cell.render(that.c.clipboardOrthogonal)
+					);
+					e.preventDefault();
 				}
-				else if (e.clipboardData && e.clipboardData.getData) {
-					// Everything else
-					pastedText = e.clipboardData.getData('text/plain');
-				}
+			});
+		}
 
-				if (editor) {
-					// Got Editor - need to activate inline editing,
-					// set the value and submit
-					var options = that._inlineOptions(focused.cell.index());
+		if (opts === true || opts.paste) {
+			$(document).on('paste' + namespace, function (ejq) {
+				var e = ejq.originalEvent;
+				var focused = that.s.lastFocus;
+				var activeEl = document.activeElement;
+				var editor = that.c.editor;
+				var pastedText;
 
-					editor
-						.inline(options.cell, options.field, options.options)
-						.set(editor.displayed()[0], pastedText)
-						.submit();
+				if (focused && (!activeEl || activeEl.nodeName.toLowerCase() === 'body')) {
+					e.preventDefault();
+
+					if (window.clipboardData && window.clipboardData.getData) {
+						// IE
+						pastedText = window.clipboardData.getData('Text');
+					}
+					else if (e.clipboardData && e.clipboardData.getData) {
+						// Everything else
+						pastedText = e.clipboardData.getData('text/plain');
+					}
+
+					if (editor) {
+						// Got Editor - need to activate inline editing,
+						// set the value and submit
+						var options = that._inlineOptions(focused.cell.index());
+
+						editor
+							.inline(options.cell, options.field, options.options)
+							.set(editor.displayed()[0], pastedText)
+							.submit();
+					}
+					else {
+						// No editor, so just dump the data in
+						focused.cell.data(pastedText);
+						dt.draw(false);
+					}
 				}
-				else {
-					// No editor, so just dump the data in
-					focused.cell.data(pastedText);
-					dt.draw(false);
-				}
-			}
-		});
+			});
+		}
 	},
 
 	/**
@@ -871,6 +876,12 @@ $.extend(KeyTable.prototype, {
 				break;
 
 			case 27: // esc
+				// If there is an inline edit in the cell, let it blur first,
+				// a second escape will then blur keytable
+				if ($(lastFocus.node).find('div.DTE').length) {
+					return;
+				}
+
 				if (this.c.blurable && enable === true) {
 					this._blur();
 				}
@@ -963,7 +974,7 @@ $.extend(KeyTable.prototype, {
 	_keyAction: function (action) {
 		var editor = this.c.editor;
 
-		if (editor && editor.mode()) {
+		if (editor && editor.mode() && editor.display()) {
 			editor.submit(action);
 		}
 		else {
@@ -1276,7 +1287,7 @@ KeyTable.defaults = {
 	tabIndex: null
 };
 
-KeyTable.version = '2.10.0';
+KeyTable.version = '2.12.1';
 
 $.fn.dataTable.KeyTable = KeyTable;
 $.fn.DataTable.KeyTable = KeyTable;

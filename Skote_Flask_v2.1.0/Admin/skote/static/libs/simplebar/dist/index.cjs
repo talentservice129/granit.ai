@@ -1,5 +1,5 @@
 /**
- * simplebar - v6.2.5
+ * simplebar - v6.2.6
  * Scrollbars, simpler.
  * https://grsmto.github.io/simplebar/
  *
@@ -12,11 +12,6 @@
     typeof define === 'function' && define.amd ? define(['exports', 'can-use-dom', 'simplebar-core'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.SimpleBar = {}, global.canUseDOM, global.SimpleBar));
 })(this, (function (exports, canUseDOM, SimpleBarCore) { 'use strict';
-
-    function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-    var canUseDOM__default = /*#__PURE__*/_interopDefaultLegacy(canUseDOM);
-    var SimpleBarCore__default = /*#__PURE__*/_interopDefaultLegacy(SimpleBarCore);
 
     /******************************************************************************
     Copyright (c) Microsoft Corporation.
@@ -49,7 +44,7 @@
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     }
 
-    var _a = SimpleBarCore__default["default"].helpers, getOptions = _a.getOptions, addClasses = _a.addClasses;
+    var _a = SimpleBarCore.helpers, getOptions = _a.getOptions, addClasses = _a.addClasses;
     var SimpleBar = /** @class */ (function (_super) {
         __extends(SimpleBar, _super);
         function SimpleBar() {
@@ -127,11 +122,11 @@
                 this.el.appendChild(this.axis.x.track.el);
                 this.el.appendChild(this.axis.y.track.el);
             }
-            SimpleBarCore__default["default"].prototype.initDOM.call(this);
+            SimpleBarCore.prototype.initDOM.call(this);
             this.el.setAttribute('data-simplebar', 'init');
         };
         SimpleBar.prototype.unMount = function () {
-            SimpleBarCore__default["default"].prototype.unMount.call(this);
+            SimpleBarCore.prototype.unMount.call(this);
             SimpleBar.instances["delete"](this.el);
         };
         SimpleBar.initHtmlApi = function () {
@@ -176,17 +171,17 @@
                     }
                 });
                 mutation.removedNodes.forEach(function (removedNode) {
+                    var _a;
                     if (removedNode.nodeType === 1) {
                         if (removedNode.getAttribute('data-simplebar') === 'init') {
-                            SimpleBar.instances.has(removedNode) &&
-                                !document.documentElement.contains(removedNode) &&
-                                SimpleBar.instances.get(removedNode).unMount();
+                            !document.documentElement.contains(removedNode) &&
+                                ((_a = SimpleBar.instances.get(removedNode)) === null || _a === void 0 ? void 0 : _a.unMount());
                         }
                         else {
                             Array.prototype.forEach.call(removedNode.querySelectorAll('[data-simplebar="init"]'), function (el) {
-                                SimpleBar.instances.has(el) &&
-                                    !document.documentElement.contains(el) &&
-                                    SimpleBar.instances.get(el).unMount();
+                                var _a;
+                                !document.documentElement.contains(el) &&
+                                    ((_a = SimpleBar.instances.get(el)) === null || _a === void 0 ? void 0 : _a.unMount());
                             });
                         }
                     }
@@ -195,16 +190,16 @@
         };
         SimpleBar.instances = new WeakMap();
         return SimpleBar;
-    }(SimpleBarCore__default["default"]));
+    }(SimpleBarCore));
     /**
      * HTML API
      * Called only in a browser env.
      */
-    if (canUseDOM__default["default"]) {
+    if (canUseDOM) {
         SimpleBar.initHtmlApi();
     }
 
-    exports["default"] = SimpleBar;
+    exports.default = SimpleBar;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
