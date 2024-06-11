@@ -87,3 +87,16 @@
         }
     }
 }
+
+.account-pages {
+    padding: 0 12px;
+
+    .bg {
+        background: repeating-linear-gradient(0deg, #0e0d0e 25%, #0e0d0e 50%, #171819 0, #171819 75%);
+        background-size: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}

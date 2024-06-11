@@ -1,17 +1,25 @@
 {% extends 'account/base_account.html' %}
 {% block title %} Login {% endblock title %}
 {% block content %}
-        <div class="account-pages my-5 pt-sm-5">
-            <div class="container">
+        <div class="account-pages">
+            <!-- <div class="container"> -->
                 <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 col-xl-5">
+                    <div class="col-md-6 col-lg-6 col-xl-7 bg d-flex justify-content-center align-items-center">
+                        <div class="glitch">
+                            {% for i in range(10) %}
+                                <div class="line">
+                                Vive la DATA révolution!
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5 d-flex flex-column justify-content-center">
                         <div class="card overflow-hidden">
                             <div class="bg-primary-subtle">
                                 <div class="row">
                                     <div class="col-7">
                                         <div class="text-primary p-4">
                                             <h5 class="text-primary">Welcome Back !</h5>
-                                            <p>Sign in to continue to Skote.</p>
                                         </div>
                                     </div>
                                     <div class="col-5 align-self-end">
@@ -24,7 +32,7 @@
                                     <a href="/" class="auth-logo-light">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{url_for('static' ,filename='images/logo-light.svg')}}" alt="" class="rounded-circle" height="34">
+                                                <img src="{{url_for('static' ,filename='images/logo-white.png')}}" alt="" class="rounded-circle" height="34">
                                             </span>
                                         </div>
                                     </a>
@@ -32,7 +40,7 @@
                                     <a href="/" class="auth-logo-dark">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{url_for('static' ,filename='images/logo.svg')}}" alt="" class="rounded-circle" height="34">
+                                                <img src="{{url_for('static' ,filename='images/logo.png')}}" alt="" class="rounded-circle" height="34">
                                             </span>
                                         </div>
                                     </a>
@@ -77,9 +85,9 @@
                                         </div>
             
                                         <div class="mt-4 text-center">
-                                            <h5 class="font-size-14 mb-3">Sign in with</h5>
+                                            <h5 class="font-size-14 mb-3">Login with SSO</h5>
             
-                                            <ul class="list-inline">
+                                            <!-- <ul class="list-inline">
                                                 <li class="list-inline-item">
                                                     <a href="javascript::void()" class="social-list-item bg-primary text-white border-primary">
                                                         <i class="mdi mdi-facebook"></i>
@@ -95,7 +103,7 @@
                                                         <i class="mdi mdi-google"></i>
                                                     </a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </div>
 
                                         <div class="mt-4 text-center">
@@ -109,14 +117,14 @@
                         <div class="mt-5 text-center">
                             
                             <div>
-                                <p>Don't have an account ? <a href="/account/signup" class="fw-medium text-primary"> Signup now </a> </p>
-                                <p>© <script>document.write(new Date().getFullYear())</script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                <!-- <p>Don't have an account ? <a href="/account/signup" class="fw-medium text-primary"> Signup now </a> </p> -->
+                                <p>© <script>document.write(new Date().getFullYear())</script> Granit.AI</p>
                             </div>
                         </div>
 
                     </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
         <!-- end account-pages -->
 {% endblock content %}
