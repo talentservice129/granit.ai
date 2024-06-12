@@ -1,133 +1,149 @@
-RCS_ID,Filing_ID,Filing_Date,DP_ID,Unique_ID,DP_Name,DP_Value,SQL_002,Only API
-B000001,L000000001,1-Jan-01,DP_501,n/a,Name,Alpha,,
-B000001,L000000001,1-Jan-01,DP_502,n/a,Abbreviation of the business name,Alp,,
-B000001,L000000001,1-Jan-01,DP_503,n/a,Business names,Alpha Business,,
-B000001,L000000001,1-Jan-01,DP_504,n/a,Legal form,Société anonyme,,
-B000001,L000000001,1-Jan-01,DP_505,n/a,Abbreviation of legal form,SA,,
-B000001,L000000001,1-Jan-01,DP_506,n/a,Registration date,1-Jan-01,Y,
-B000001,L000000001,1-Jan-01,DP_507,n/a,Other names,"Delta, Mango",Y,Y
-B000001,L000000001,1-Jan-01,DP_508,n/a,Abbreviation of other name,"Del, Man",Y,Y
-B000001,L000000001,1-Jan-01,DP_509,n/a,Building number,1,,
-B000001,L000000001,1-Jan-01,DP_510,n/a,Street,First Street,,
-B000001,L000000001,1-Jan-01,DP_511,n/a,Postcode,123456,,
-B000001,L000000001,1-Jan-01,DP_512,n/a,Locality,Locality 1,,
-B000001,L000000001,1-Jan-01,DP_513,n/a,NACE code,Code 1,Y,Y
-B000001,L000000001,1-Jan-01,DP_514,n/a,NACE designation,Designation 1,Y,Y
-B000001,L000000001,1-Jan-01,DP_515,n/a,Domiciliary name,Agent 1,,
-B000001,L000000001,1-Jan-01,DP_516,n/a,Domiciliary agent appointment:,1-Jan-01,,
-B000001,L000000001,1-Jan-01,DP_517,n/a,Date of submission of notice of termination of the domiciliary agrement,1-Feb-01,,
-B000001,L000000001,1-Jan-01,DP_002,n/a,Duration unlimited,TRUE,,
-B000001,L000000001,1-Jan-01,DP_006,n/a,First financial period: From,1-Jan-01,,
-B000001,L000000001,1-Jan-01,DP_007,n/a,First financial period: To,31-Dec-01,,
-B000001,L000000001,1-Jan-01,DP_008,n/a,Fiscal year: From,1-Jan,,
-B000001,L000000001,1-Jan-01,DP_009,n/a,Fiscal year: To,31/12,,
-B000001,L000000001,1-Jan-01,DP_011,MG_001,MG: Last Name,JONES,Y,
-B000001,L000000001,1-Jan-01,DP_012,MG_001,MG: First Name,John,Y,
-B000001,L000000001,1-Jan-01,DP_013,MG_001,MG: Date of Birth,10-Oct-10,Y,
-B000001,L000000001,1-Jan-01,DP_014,MG_001,MG: Place of Birth,Paris,Y,
-B000001,L000000001,1-Jan-01,DP_015,MG_001,MG: Country of Birth,France,Y,
-B000001,L000000001,1-Jan-01,DP_039,MG_001,Mandate: limited,TRUE,,
-B000001,L000000001,1-Jan-01,DP_042,MG_001,Mandate: expiration (Date),5-May-05,,
-B000001,L000000001,1-Jan-01,DP_041,MG_001,Mandate: appointment / renewal date,1-Jan-01,Y,
-B000001,L000000001,1-Jan-01,DP_032,MG_001,MG: Street,Second Street,,
-B000001,L000000001,1-Jan-01,DP_033,MG_001,MG: Building Number,2,,
-B000001,L000000001,1-Jan-01,DP_034,MG_001,MG: Building Name,Good Building,,
-B000001,L000000001,1-Jan-01,DP_035,MG_001,MG: Floor,First Floor,,
-B000001,L000000001,1-Jan-01,DP_036,MG_001,MG: Post Code,123456,,
-B000001,L000000001,1-Jan-01,DP_037,MG_001,MG: City,Luxembourg,,
-B000001,L000000001,1-Jan-01,DP_038,MG_001,MG: Country,Luxembourg,,
-B000001,L000000001,1-Jan-01,DP_052,,Capital Variable,TRUE,,
-B000001,L000000001,1-Jan-01,DP_054,,Denomination,EUR,,
-B000001,L000000001,1-Jan-01,DP_055,,Social Object,social object 1,,
-B000001,L000000001,1-Jan-01,DP_056,,Social Object complete vs incomplete,FALSE,,
-B000001,L000000001,1-Jan-01,DP_049,,Signatory regime,Any one manager,,
-B000001,L000000001,1-Jan-01,DP_044,MG_001,MG: Governing body name,Governing body Name,Y,
-B000001,L000000001,1-Jan-01,DP_045,MG_001,MG: Function of the manager,Manager Function,Y,
-B000001,L000000001,1-Jan-01,DP_046,MG_001,MG: Type of manager,Type of Manager,Y,
-B000001,L000000001,1-Jan-01,DP_050,MG_001,MG: Signatory powers,Signatory Power,Y,
-B000001,L000000002,2-Feb-02,DP_501,n/a,Name,Bravo,Y,
-B000001,L000000002,2-Feb-02,DP_502,n/a,Abbreviation of the business name,Bra,Y,
-B000001,L000000002,2-Feb-02,DP_503,n/a,Business names,Bravo Business,Y,
-B000001,L000000002,2-Feb-02,DP_504,n/a,Legal form,Société à responsibilité limitée,Y,
-B000001,L000000002,2-Feb-02,DP_505,n/a,Abbreviation of legal form,S.à r.l.,Y,
-B000001,L000000002,2-Feb-02,DP_507,n/a,Other names,,,
-B000001,L000000002,2-Feb-02,DP_508,n/a,Abbreviation of other name,,,
-B000001,L000000002,2-Feb-02,DP_509,n/a,Building number,2,Y,
-B000001,L000000002,2-Feb-02,DP_510,n/a,Street,Second Street,Y,
-B000001,L000000002,2-Feb-02,DP_511,n/a,Postcode,654321,Y,
-B000001,L000000002,2-Feb-02,DP_512,n/a,Locality,Locality 2,Y,
-B000001,L000000002,2-Feb-02,DP_515,n/a,Domiciliary name,Agent 2,Y,
-B000001,L000000002,2-Feb-02,DP_516,n/a,Domiciliary agent appointment:,1-Feb-01,Y,
-B000001,L000000002,2-Feb-02,DP_003,n/a,Duration limited,TRUE,,
-B000001,L000000002,2-Feb-02,DP_005,n/a,Duration end date,3-Mar-03,,
-B000001,L000000002,2-Feb-02,DP_039,MG_001,Mandate: limited,TRUE,,
-B000001,L000000002,2-Feb-02,DP_011,MG_002,MG: Last Name,CLAUS,Y,
-B000001,L000000002,2-Feb-02,DP_012,MG_002,MG: First Name,Santa,Y,
-B000001,L000000002,2-Feb-02,DP_013,MG_002,MG: Date of Birth,1/Jan/1087,Y,
-B000001,L000000002,2-Feb-02,DP_014,MG_002,MG: Place of Birth,Athens,Y,
-B000001,L000000002,2-Feb-02,DP_015,MG_002,MG: Country of Birth,Greece,Y,
-B000001,L000000002,2-Feb-02,DP_041,MG_002,Mandate: appointment / renewal date,2-Feb-02,Y,
-B000001,L000000002,2-Feb-02,DP_043,MG_002,Mandate: expiration (date of AGM),2003,,
-B000001,L000000002,2-Feb-02,DP_011,MG_003,MG: Last Name,BRAVO,Y,
-B000001,L000000002,2-Feb-02,DP_012,MG_003,MG: First Name,Johny,Y,
-B000001,L000000002,2-Feb-02,DP_013,MG_003,MG: Date of Birth,1-Jan-90,Y,
-B000001,L000000002,2-Feb-02,DP_014,MG_003,MG: Place of Birth,London,Y,
-B000001,L000000002,2-Feb-02,DP_015,MG_003,MG: Country of Birth,United Kingdom,Y,
-B000001,L000000002,2-Feb-02,DP_040,MG_003,Mandate: unlimited,TRUE,Y,
-B000001,L000000002,2-Feb-02,DP_032,MG_002,MG: Street,Third Street,Y,
-B000001,L000000002,2-Feb-02,DP_033,MG_002,MG: Building Number,3,Y,
-B000001,L000000002,2-Feb-02,DP_034,MG_002,MG: Building Name,Better Building,Y,
-B000001,L000000002,2-Feb-02,DP_035,MG_002,MG: Floor,Second Floor,Y,
-B000001,L000000002,2-Feb-02,DP_036,MG_002,MG: Post Code,456789,Y,
-B000001,L000000002,2-Feb-02,DP_037,MG_002,MG: City,Munsbach,Y,
-B000001,L000000002,2-Feb-02,DP_038,MG_002,MG: Country,Luxembourg,Y,
-B000001,L000000002,2-Feb-02,DP_032,MG_003,MG: Street,Third Street,Y,
-B000001,L000000002,2-Feb-02,DP_033,MG_003,MG: Building Number,3,Y,
-B000001,L000000002,2-Feb-02,DP_034,MG_003,MG: Building Name,Better Building,Y,
-B000001,L000000002,2-Feb-02,DP_035,MG_003,MG: Floor,Second Floor,Y,
-B000001,L000000002,2-Feb-02,DP_036,MG_003,MG: Post Code,456789,Y,
-B000001,L000000002,2-Feb-02,DP_037,MG_003,MG: City,Munsbach,Y,
-B000001,L000000002,2-Feb-02,DP_038,MG_003,MG: Country,Luxembourg,Y,
-B000001,L000000002,2-Feb-02,DP_032,MG_001,MG: Street,Third Street,Y,
-B000001,L000000002,2-Feb-02,DP_033,MG_001,MG: Building Number,3,Y,
-B000001,L000000002,2-Feb-02,DP_034,MG_001,MG: Building Name,Better Building,Y,
-B000001,L000000002,2-Feb-02,DP_035,MG_001,MG: Floor,Second Floor,Y,
-B000001,L000000002,2-Feb-02,DP_036,MG_001,MG: Post Code,456789,Y,
-B000001,L000000002,2-Feb-02,DP_037,MG_001,MG: City,Munsbach,Y,
-B000001,L000000002,2-Feb-02,DP_038,MG_001,MG: Country,Luxembourg,Y,
-B000001,L000000002,2-Feb-02,DP_051,,Capital Fixed,TRUE,Y,
-B000001,L000000002,2-Feb-02,DP_053,,Capital amount,20000,Y,
-B000001,L000000002,2-Feb-02,DP_054,,Denomination,USD,Y,
-B000001,L000000002,2-Feb-02,DP_055,,Social Object,Social Object 2,Y,
-B000001,L000000002,2-Feb-02,DP_056,,Social Object complete vs incomplete,TRUE,Y,
-B000001,L000000002,2-Feb-02,DP_016,MG_004,Name of the entity,Manager Company,Y,
-B000001,L000000002,2-Feb-02,DP_017,MG_004,Registration number,987654,Y,
-B000001,L000000002,2-Feb-02,DP_018,MG_004,Name of the Business Register,RCS,Y,
-B000001,L000000002,2-Feb-02,DP_019,MG_004,Country,Luxembourg,Y,
-B000001,L000000002,2-Feb-02,DP_032,MG_004,MG: Street,Third Street,Y,
-B000001,L000000002,2-Feb-02,DP_033,MG_004,MG: Building Number,3,Y,
-B000001,L000000002,2-Feb-02,DP_034,MG_004,MG: Building Name,Better Building,Y,
-B000001,L000000002,2-Feb-02,DP_035,MG_004,MG: Floor,Second Floor,Y,
-B000001,L000000002,2-Feb-02,DP_036,MG_004,MG: Post Code,456789,Y,
-B000001,L000000002,2-Feb-02,DP_037,MG_004,MG: City,Munsbach,Y,
-B000001,L000000002,2-Feb-02,DP_038,MG_004,MG: Country,Luxembourg,Y,
-B000001,L000000002,2-Feb-02,DP_041,MG_004,Mandate: appointment / renewal date,3/3/2023,Y,
-B000001,L000000002,2-Feb-02,DP_039,MG_004,Mandate: limited,TRUE,,
-B000001,L000000002,2-Feb-02,DP_043,MG_004,Mandate: expiration (date of AGM),2003,,
-B000001,L000000002,2-Feb-02,DP_049,,Signatory regime,Any two managers,Y,
-B000001,L000000002,2-Feb-02,DP_044,MG_002,MG: Governing body name,Governing body Name,Y,
-B000001,L000000002,2-Feb-02,DP_045,MG_002,MG: Function of the manager,Manager Function,Y,
-B000001,L000000002,2-Feb-02,DP_046,MG_002,MG: Type of manager,Type of Manager,Y,
-B000001,L000000002,2-Feb-02,DP_050,MG_002,MG: Signatory powers,Signatory Power,Y,
-B000001,L000000002,2-Feb-02,DP_044,MG_003,MG: Governing body name,Governing body Name,Y,
-B000001,L000000002,2-Feb-02,DP_045,MG_003,MG: Function of the manager,Manager Function,Y,
-B000001,L000000002,2-Feb-02,DP_046,MG_003,MG: Type of manager,Type of Manager,Y,
-B000001,L000000002,2-Feb-02,DP_050,MG_003,MG: Signatory powers,Signatory Power,Y,
-B000001,L000000002,2-Feb-02,DP_044,MG_004,MG: Governing body name,Governing body Name,Y,
-B000001,L000000002,2-Feb-02,DP_045,MG_004,MG: Function of the manager,Manager Function,Y,
-B000001,L000000002,2-Feb-02,DP_046,MG_004,MG: Type of manager,Type of Manager,Y,
-B000001,L000000002,2-Feb-02,DP_050,MG_004,MG: Signatory powers,Signatory Power,Y,
-B000001,L000000003,3-Mar-03,DP_004,,Duration extended,TRUE,Y,
-B000001,L000000003,3-Mar-03,DP_005,,Duration end date,31-Dec-50,Y,
-B000001,L000000003,3-Mar-03,DP_040,MG_002,Mandate: unlimited,TRUE,Y,
-B000001,L000000003,3-Mar-03,DP_040,MG_004,Mandate: unlimited,TRUE,Y,
+RCS_ID,Filing_ID,Filing_Date,DP_ID,Unique_ID,DP_Name,DP_Value
+B265890,L220053050,23/03/2022,DP_500,FALSE,RCS number,B265890
+B265890,L220053050,23/03/2022,DP_016,FALSE,Name of the entity,Hanover Capital Solutions S.à r.l.
+B265890,L220053050,23/03/2022,DP_504,FALSE,Legal form,Société à responsabilité limitée
+B265890,L220053050,23/03/2022,DP_505,FALSE,Abbreviation of legal form,S.à r.l.
+B265890,L220053050,23/03/2022,DP_503,FALSE,Business names,FALSE
+B265890,L220053050,23/03/2022,DP_502,FALSE,Abbreviation of the business name,FALSE
+B265890,L220053050,23/03/2022,DP_507,FALSE,Other names,FALSE
+B265890,L220053050,23/03/2022,DP_508,FALSE,Abbreviation of other name,FALSE
+B265890,L220053050,23/03/2022,DP_509,FALSE,Contribution percentage,20
+B265890,L220053050,23/03/2022,DP_510,FALSE,Contribution percentage,rue de la Poste
+B265890,L220053050,23/03/2022,DP_511,FALSE,Contribution percentage,2346
+B265890,L220053050,23/03/2022,DP_512,FALSE,Contribution percentage,Luxembourg
+B265890,L220053050,23/03/2022,DP_055,FALSE,Social Object,"3.1. La Société peut conclure toute forme d'opération de titrisation au sens de la Loi sur la Titrisation et plus particulièrement, elle 
+peut acquérir, accorder (dans la mesure de ce qui est permis) ou assumer, directement ou indirectement ou par l'intermédiaire de 
+toute autre entité, les risques relatifs à tout type de prêts, des prêts non-performants, créances, obligations, actions/parts sociales, 
+parts d'intérêt, obligations gouvernementales, bons du trésor, instruments financiers de dette et/ou de capital et tout autre type 
+d'instruments financiers, autres instruments similaires et biens immobiliers (les Actifs Sous-Jacents) et directement ou indirectement 
+investir dans, acquérir, accorder, détenir ou céder les Actifs Sous-Jacents. En outre, la Société peut titriser indirectement les Actifs 
+Sous-Jacents à travers l'acquisition et la détention d'intérêts et instruments financiers de dette et/ou de capital émis par des sociétés 
+ou entités détenant les Actifs Sous-Jacents. 
+3.2. La Société peut émettre des parts sociales, des obligations, des billets à ordre, des titres de dettes assortis de sûretés 
+(""debenture""), tout type d'instruments financiers de dette et/ou de capital et tout autre type d'instruments financiers, et/ou 
+contracter des prêts, dans chaque cas dont la valeur ou le rendement dépendent des risques relatifs aux Actifs Sous-Jacents (chacun 
+une Titrisation). La ..."
+B265890,L220053050,23/03/2022,DP_056,FALSE,Social Object complete vs incomplete,TRUE
+B265890,L220053050,23/03/2022,DP_051,FALSE,Capital Fixed,TRUE
+B265890,L220053050,23/03/2022,DP_052,FALSE,Capital Variable,FALSE
+B265890,L220053050,23/03/2022,DP_054,FALSE,Denomination,EUR
+B265890,L220053050,23/03/2022,DP_057,FALSE,Contribution (Partial),FALSE
+B265890,L220053050,23/03/2022,DP_058,FALSE,Contribution (full),TRUE
+B265890,L220053050,23/03/2022,DP_059,FALSE,Contribution percentage,FALSE
+B265890,L220053050,23/03/2022,DP_001,FALSE,Date of incorporation,1/3/2022
+B265890,L220053050,23/03/2022,DP_002,FALSE,Duration unlimited,TRUE
+B265890,L220053050,23/03/2022,DP_003,FALSE,Duration limited,FALSE
+B265890,L220053050,23/03/2022,DP_004,FALSE,Duration extended,FALSE
+B265890,L220053050,23/03/2022,DP_005,FALSE,Duration end date,FALSE
+B265890,L220053050,23/03/2022,DP_006,FALSE,First financial period: From,11/3/2022
+B265890,L220053050,23/03/2022,DP_007,FALSE,First financial period: To,31/12/2022
+B265890,L220053050,23/03/2022,DP_008,FALSE,Fiscal year: From,1-Jan
+B265890,L220053050,23/03/2022,DP_009,FALSE,Fiscal year: To,31/12
+B265890,L220053050,23/03/2022,DP_049,FALSE,Signatory regime,"(i) La Société est engagée vis-à-vis des tiers en toutes circonstances par la signature du gérant unique ; si les associés n'ont pas 
+nommé des classes de gérants, par les signatures conjointes de deux (2) gérants ; ou, si les associés ont nommé un ou plusieurs 
+gérants de catégorie A et un ou plusieurs gérants de catégorie B, par les signatures conjointes d'un (1) gérant de catégorie A et d'un 
+(1) gérant de catégorie B. 
+(ii) La Société est également engagée vis-à-vis des tiers par la signature de toute personne à qui des pouvoirs spéciaux ont été 
+délégués par le Conseil."
+B265890,L220053050,23/03/2022,DP_600,MG_001,Private Individual,TRUE
+B265890,L220053050,23/03/2022,DP_011,MG_001,MG: Last Name,Wai-Kwong Cornet
+B265890,L220053050,23/03/2022,DP_012,MG_001,MG: First Name,Paul-Emile
+B265890,L220053050,23/03/2022,DP_013,MG_001,MG: Date of Birth,3/9/1972
+B265890,L220053050,23/03/2022,DP_014,MG_001,MG: Place of Birth,"Santa Clara, Californie"
+B265890,L220053050,23/03/2022,DP_015,MG_001,MG: Country of Birth,Etats Unis d'Amérique
+B265890,L220053050,23/03/2022,DP_032,MG_001,MG: Street,rue des Prunelles
+B265890,L220053050,23/03/2022,DP_033,MG_001,MG: Building Number,57
+B265890,L220053050,23/03/2022,DP_034,MG_001,MG: Building Name,FALSE
+B265890,L220053050,23/03/2022,DP_035,MG_001,MG: Floor,FALSE
+B265890,L220053050,23/03/2022,DP_036,MG_001,MG: Post Code,2353
+B265890,L220053050,23/03/2022,DP_037,MG_001,MG: City,Luxembourg
+B265890,L220053050,23/03/2022,DP_038,MG_001,MG: Country,Luxembourg
+B265890,L220053050,23/03/2022,DP_044,MG_001,MG: Governing body name,conseil de gérance
+B265890,L220053050,23/03/2022,DP_045,MG_001,MG: Function of the manager,gérant
+B265890,L220053050,23/03/2022,DP_050,MG_001,MG: Signatory powers,FALSE
+B265890,L220053050,23/03/2022,DP_039,MG_001,Mandate: limited,FALSE
+B265890,L220053050,23/03/2022,DP_040,MG_001,Mandate: unlimited,TRUE
+B265890,L220053050,23/03/2022,DP_041,MG_001,Mandate: appointment / renewal date,11/3/2022
+B265890,L220053050,23/03/2022,DP_042,MG_001,Mandate: expiration (Date),FALSE
+B265890,L220053050,23/03/2022,DP_043,MG_001,Mandate: expiration (date of AGM),FALSE
+B265890,L220053050,23/03/2022,DP_600,MG_002,Private Individual,TRUE
+B265890,L220053050,23/03/2022,DP_011,MG_002,MG: Last Name,Westhead
+B265890,L220053050,23/03/2022,DP_012,MG_002,MG: First Name,Jeremy James
+B265890,L220053050,23/03/2022,DP_013,MG_002,MG: Date of Birth,29/01/1976
+B265890,L220053050,23/03/2022,DP_014,MG_002,MG: Place of Birth,Leicester
+B265890,L220053050,23/03/2022,DP_015,MG_002,MG: Country of Birth,Royaume-Uni
+B265890,L220053050,23/03/2022,DP_032,MG_002,MG: Street,Savile Row
+B265890,L220053050,23/03/2022,DP_033,MG_002,MG: Building Number,25
+B265890,L220053050,23/03/2022,DP_034,MG_002,MG: Building Name,FALSE
+B265890,L220053050,23/03/2022,DP_035,MG_002,MG: Floor,FALSE
+B265890,L220053050,23/03/2022,DP_036,MG_002,MG: Post Code,W1S 2ER
+B265890,L220053050,23/03/2022,DP_037,MG_002,MG: City,Londres
+B265890,L220053050,23/03/2022,DP_038,MG_002,MG: Country,UK
+B265890,L220053050,23/03/2022,DP_044,MG_002,MG: Governing body name,conseil de gérance
+B265890,L220053050,23/03/2022,DP_045,MG_002,MG: Function of the manager,gérant
+B265890,L220053050,23/03/2022,DP_050,MG_002,MG: Signatory powers,FALSE
+B265890,L220053050,23/03/2022,DP_039,MG_002,Mandate: limited,FALSE
+B265890,L220053050,23/03/2022,DP_040,MG_002,Mandate: unlimited,TRUE
+B265890,L220053050,23/03/2022,DP_041,MG_002,Mandate: appointment / renewal date,11/3/2022
+B265890,L220053050,23/03/2022,DP_042,MG_002,Mandate: expiration (Date),FALSE
+B265890,L220053050,23/03/2022,DP_043,MG_002,Mandate: expiration (date of AGM),FALSE
+B265890,L220053050,23/03/2022,DP_600,MG_003,Private Individual,TRUE
+B265890,L220053050,23/03/2022,DP_011,MG_003,MG: Last Name,Davies
+B265890,L220053050,23/03/2022,DP_012,MG_003,MG: First Name,Taavi
+B265890,L220053050,23/03/2022,DP_013,MG_003,MG: Date of Birth,26/05/1975
+B265890,L220053050,23/03/2022,DP_014,MG_003,MG: Place of Birth,Ukarumpa
+B265890,L220053050,23/03/2022,DP_015,MG_003,MG: Country of Birth,Papouasie-Nouvelle-Guinée
+B265890,L220053050,23/03/2022,DP_032,MG_003,MG: Street,rue des Prunelles
+B265890,L220053050,23/03/2022,DP_033,MG_003,MG: Building Number,57
+B265890,L220053050,23/03/2022,DP_034,MG_003,MG: Building Name,FALSE
+B265890,L220053050,23/03/2022,DP_035,MG_003,MG: Floor,FALSE
+B265890,L220053050,23/03/2022,DP_036,MG_003,MG: Post Code,2353
+B265890,L220053050,23/03/2022,DP_037,MG_003,MG: City,Luxembourg
+B265890,L220053050,23/03/2022,DP_038,MG_003,MG: Country,Luxembourg
+B265890,L220053050,23/03/2022,DP_044,MG_003,MG: Governing body name,conseil de gérance
+B265890,L220053050,23/03/2022,DP_045,MG_003,MG: Function of the manager,gérant
+B265890,L220053050,23/03/2022,DP_050,MG_003,MG: Signatory powers,FALSE
+B265890,L220053050,23/03/2022,DP_039,MG_003,Mandate: limited,FALSE
+B265890,L220053050,23/03/2022,DP_040,MG_003,Mandate: unlimited,TRUE
+B265890,L220053050,23/03/2022,DP_041,MG_003,Mandate: appointment / renewal date,11/3/2022
+B265890,L220053050,23/03/2022,DP_042,MG_003,Mandate: expiration (Date),FALSE
+B265890,L220053050,23/03/2022,DP_043,MG_003,Mandate: expiration (date of AGM),FALSE
+B265890,L220085513,13/05/2022,DP_601,FALSE,Legal Entity (LU),TRUE
+B265890,L220085513,13/05/2022,DP_602,FALSE,Registration number,B67895
+B265890,L220085513,13/05/2022,DP_603,FALSE,Entity Name,Deloitte Audit
+B265890,L220085513,13/05/2022,DP_604,FALSE,Type of mandate,Réviseur d'entreprises agréé
+B265890,L220085513,13/05/2022,DP_605,FALSE,Mandate: Limited,TRUE
+B265890,L220085513,13/05/2022,DP_606,FALSE,Mandate: Unlimited,FALSE
+B265890,L220085513,13/05/2022,DP_607,FALSE,Mandate: Expiration (Date),31/12/2022
+B265890,L220085513,13/05/2022,DP_608,FALSE,Mandate: Expiration (AGM),FALSE
+B265890,L220085513,13/05/2022,DP_609,FALSE,Mandate: Nomination,4/4/2022
+B000001,L000000002,2-Feb-02,DP_017,MG_004,Registration number,987654
+B000001,L000000002,2-Feb-02,DP_018,MG_004,Name of the Business Register,RCS
+B000001,L000000002,2-Feb-02,DP_019,MG_004,Country,Luxembourg
+B000001,L000000002,2-Feb-02,DP_032,MG_004,MG: Street,Third Street
+B000001,L000000002,2-Feb-02,DP_033,MG_004,MG: Building Number,3
+B000001,L000000002,2-Feb-02,DP_034,MG_004,MG: Building Name,Better Building
+B000001,L000000002,2-Feb-02,DP_035,MG_004,MG: Floor,Second Floor
+B000001,L000000002,2-Feb-02,DP_036,MG_004,MG: Post Code,456789
+B000001,L000000002,2-Feb-02,DP_037,MG_004,MG: City,Munsbach
+B000001,L000000002,2-Feb-02,DP_038,MG_004,MG: Country,Luxembourg
+B000001,L000000002,2-Feb-02,DP_041,MG_004,Mandate: appointment / renewal date,3/3/2023
+B000001,L000000002,2-Feb-02,DP_039,MG_004,Mandate: limited,TRUE
+B000001,L000000002,2-Feb-02,DP_043,MG_004,Mandate: expiration (date of AGM),2003
+B000001,L000000002,2-Feb-02,DP_049,,Signatory regime,Any two managers
+B000001,L000000002,2-Feb-02,DP_044,MG_002,MG: Governing body name,Governing body Name
+B000001,L000000002,2-Feb-02,DP_045,MG_002,MG: Function of the manager,Manager Function
+B000001,L000000002,2-Feb-02,DP_046,MG_002,MG: Type of manager,Type of Manager
+B000001,L000000002,2-Feb-02,DP_050,MG_002,MG: Signatory powers,Signatory Power
+B000001,L000000002,2-Feb-02,DP_044,MG_003,MG: Governing body name,Governing body Name
+B000001,L000000002,2-Feb-02,DP_045,MG_003,MG: Function of the manager,Manager Function
+B000001,L000000002,2-Feb-02,DP_046,MG_003,MG: Type of manager,Type of Manager
+B000001,L000000002,2-Feb-02,DP_050,MG_003,MG: Signatory powers,Signatory Power
+B000001,L000000002,2-Feb-02,DP_044,MG_004,MG: Governing body name,Governing body Name
+B000001,L000000002,2-Feb-02,DP_045,MG_004,MG: Function of the manager,Manager Function
+B000001,L000000002,2-Feb-02,DP_046,MG_004,MG: Type of manager,Type of Manager
+B000001,L000000002,2-Feb-02,DP_050,MG_004,MG: Signatory powers,Signatory Power
+B000001,L000000003,3-Mar-03,DP_004,,Duration extended,TRUE
+B000001,L000000003,3-Mar-03,DP_005,,Duration end date,31-Dec-50
+B000001,L000000003,3-Mar-03,DP_040,MG_002,Mandate: unlimited,TRUE
+B000001,L000000003,3-Mar-03,DP_040,MG_004,Mandate: unlimited,TRUE

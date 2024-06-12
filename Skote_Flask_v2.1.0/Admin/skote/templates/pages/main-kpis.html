@@ -1,5 +1,5 @@
 {% extends 'partials/base.html' %}
-{% block title %} Data Tables {% endblock title %}
+{% block title %} Master Data {% endblock title %}
 
 {% block extra_css %}
 <!-- DataTables -->
@@ -63,13 +63,6 @@
         <div class="card">
             <div class="card-body">
 
-                <h4 class="card-title">Summary Datatable</h4>
-                <p class="card-title-desc">The Buttons extension for DataTables
-                    provides a common set of options, API methods and styling to display
-                    buttons on a page that will interact with a DataTable. The core library
-                    provides the based framework upon which plug-ins can built.
-                </p>
-
                 <table id="datatable-buttons" class="table table-bordered dt-responsive nowrap w-100">
                     <thead>
 						<tr>
@@ -125,5 +118,5 @@
 <script src="{{url_for('static' ,filename='libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js')}}"></script>
 
 <!-- Datatable init js -->
-<script src="{{url_for('static' ,filename='js/pages/main.init.js')}}"></script>
+<script src="{{url_for('static' ,filename='js/pages/main-kpis.init.js')}}"></script>
 {% endblock extra_javascript %}

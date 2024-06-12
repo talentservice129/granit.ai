@@ -1085,8 +1085,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   bottom: 0;
 }
 .line:nth-child(1) {
-  -webkit-animation: clip 3000ms -300ms linear infinite, glitch1 500ms -863ms linear infinite;
-          animation: clip 3000ms -300ms linear infinite, glitch1 500ms -863ms linear infinite;
+  -webkit-animation: clip 3000ms -300ms linear infinite, glitch1 500ms -791ms linear infinite;
+          animation: clip 3000ms -300ms linear infinite, glitch1 500ms -791ms linear infinite;
 }
 @-webkit-keyframes glitch1 {
   0% {
@@ -1099,18 +1099,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #fff;
   }
   100% {
@@ -1129,18 +1129,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #fff;
   }
   100% {
@@ -1149,8 +1149,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(2) {
-  -webkit-animation: clip 3000ms -600ms linear infinite, glitch2 500ms -88ms linear infinite;
-          animation: clip 3000ms -600ms linear infinite, glitch2 500ms -88ms linear infinite;
+  -webkit-animation: clip 3000ms -600ms linear infinite, glitch2 500ms -598ms linear infinite;
+          animation: clip 3000ms -600ms linear infinite, glitch2 500ms -598ms linear infinite;
 }
 @-webkit-keyframes glitch2 {
   0% {
@@ -1163,18 +1163,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
     color: #fff;
   }
   100% {
@@ -1193,18 +1193,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
     color: #fff;
   }
   100% {
@@ -1213,8 +1213,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(3) {
-  -webkit-animation: clip 3000ms -900ms linear infinite, glitch3 500ms -418ms linear infinite;
-          animation: clip 3000ms -900ms linear infinite, glitch3 500ms -418ms linear infinite;
+  -webkit-animation: clip 3000ms -900ms linear infinite, glitch3 500ms -183ms linear infinite;
+          animation: clip 3000ms -900ms linear infinite, glitch3 500ms -183ms linear infinite;
 }
 @-webkit-keyframes glitch3 {
   0% {
@@ -1232,13 +1232,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-1px);
-            transform: translateX(-1px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #fff;
   }
   100% {
@@ -1262,13 +1262,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-1px);
-            transform: translateX(-1px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #fff;
   }
   100% {
@@ -1277,8 +1277,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(4) {
-  -webkit-animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -439ms linear infinite;
-          animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -439ms linear infinite;
+  -webkit-animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -608ms linear infinite;
+          animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -608ms linear infinite;
 }
 @-webkit-keyframes glitch4 {
   0% {
@@ -1291,13 +1291,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
@@ -1321,13 +1321,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
@@ -1341,8 +1341,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(5) {
-  -webkit-animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -936ms linear infinite;
-          animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -936ms linear infinite;
+  -webkit-animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -398ms linear infinite;
+          animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -398ms linear infinite;
 }
 @-webkit-keyframes glitch5 {
   0% {
@@ -1355,18 +1355,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-1px);
-            transform: translateX(-1px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #fff;
   }
   100% {
@@ -1385,18 +1385,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-1px);
-            transform: translateX(-1px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #fff;
   }
   100% {
@@ -1405,8 +1405,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(6) {
-  -webkit-animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -822ms linear infinite;
-          animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -822ms linear infinite;
+  -webkit-animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -2ms linear infinite;
+          animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -2ms linear infinite;
 }
 @-webkit-keyframes glitch6 {
   0% {
@@ -1419,8 +1419,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #4E9A26;
   }
   90% {
@@ -1429,8 +1429,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #fff;
   }
   100% {
@@ -1449,8 +1449,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #4E9A26;
   }
   90% {
@@ -1459,8 +1459,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #fff;
   }
   100% {
@@ -1469,8 +1469,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(7) {
-  -webkit-animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -408ms linear infinite;
-          animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -408ms linear infinite;
+  -webkit-animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -563ms linear infinite;
+          animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -563ms linear infinite;
 }
 @-webkit-keyframes glitch7 {
   0% {
@@ -1483,18 +1483,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-3px);
-            transform: translateX(-3px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #fff;
   }
   100% {
@@ -1513,18 +1513,18 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(-3px);
-            transform: translateX(-3px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-2px);
-            transform: translateX(-2px);
+    -webkit-transform: translateX(-1px);
+            transform: translateX(-1px);
     color: #fff;
   }
   100% {
@@ -1533,8 +1533,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(8) {
-  -webkit-animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -60ms linear infinite;
-          animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -60ms linear infinite;
+  -webkit-animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -362ms linear infinite;
+          animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -362ms linear infinite;
 }
 @-webkit-keyframes glitch8 {
   0% {
@@ -1547,13 +1547,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
     color: #AC1212;
   }
   95% {
@@ -1577,13 +1577,13 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(1px);
-            transform: translateX(1px);
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
     color: #AC1212;
   }
   95% {
@@ -1597,8 +1597,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(9) {
-  -webkit-animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -433ms linear infinite;
-          animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -433ms linear infinite;
+  -webkit-animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -876ms linear infinite;
+          animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -876ms linear infinite;
 }
 @-webkit-keyframes glitch9 {
   0% {
@@ -1611,8 +1611,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #4E9A26;
   }
   90% {
@@ -1621,8 +1621,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #fff;
   }
   100% {
@@ -1641,8 +1641,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #fff;
   }
   85% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #4E9A26;
   }
   90% {
@@ -1651,8 +1651,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #AC1212;
   }
   95% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
     color: #fff;
   }
   100% {
@@ -1661,8 +1661,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
   }
 }
 .line:nth-child(10) {
-  -webkit-animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -227ms linear infinite;
-          animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -227ms linear infinite;
+  -webkit-animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -791ms linear infinite;
+          animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -791ms linear infinite;
 }
 @-webkit-keyframes glitch10 {
   0% {
@@ -1680,8 +1680,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #AC1212;
   }
   95% {
@@ -1710,8 +1710,8 @@ body[data-layout=horizontal][data-layout-size=boxed] .container-fluid, body[data
     color: #4E9A26;
   }
   90% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
     color: #AC1212;
   }
   95% {
