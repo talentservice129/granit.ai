@@ -117,33 +117,33 @@ B265890,L220085513,13/05/2022,DP_606,FALSE,Mandate: Unlimited,FALSE
 B265890,L220085513,13/05/2022,DP_607,FALSE,Mandate: Expiration (Date),31/12/2022
 B265890,L220085513,13/05/2022,DP_608,FALSE,Mandate: Expiration (AGM),FALSE
 B265890,L220085513,13/05/2022,DP_609,FALSE,Mandate: Nomination,4/4/2022
-B000001,L000000002,2-Feb-02,DP_017,MG_004,Registration number,987654
-B000001,L000000002,2-Feb-02,DP_018,MG_004,Name of the Business Register,RCS
-B000001,L000000002,2-Feb-02,DP_019,MG_004,Country,Luxembourg
-B000001,L000000002,2-Feb-02,DP_032,MG_004,MG: Street,Third Street
-B000001,L000000002,2-Feb-02,DP_033,MG_004,MG: Building Number,3
-B000001,L000000002,2-Feb-02,DP_034,MG_004,MG: Building Name,Better Building
-B000001,L000000002,2-Feb-02,DP_035,MG_004,MG: Floor,Second Floor
-B000001,L000000002,2-Feb-02,DP_036,MG_004,MG: Post Code,456789
-B000001,L000000002,2-Feb-02,DP_037,MG_004,MG: City,Munsbach
-B000001,L000000002,2-Feb-02,DP_038,MG_004,MG: Country,Luxembourg
-B000001,L000000002,2-Feb-02,DP_041,MG_004,Mandate: appointment / renewal date,3/3/2023
-B000001,L000000002,2-Feb-02,DP_039,MG_004,Mandate: limited,TRUE
-B000001,L000000002,2-Feb-02,DP_043,MG_004,Mandate: expiration (date of AGM),2003
-B000001,L000000002,2-Feb-02,DP_049,,Signatory regime,Any two managers
-B000001,L000000002,2-Feb-02,DP_044,MG_002,MG: Governing body name,Governing body Name
-B000001,L000000002,2-Feb-02,DP_045,MG_002,MG: Function of the manager,Manager Function
-B000001,L000000002,2-Feb-02,DP_046,MG_002,MG: Type of manager,Type of Manager
-B000001,L000000002,2-Feb-02,DP_050,MG_002,MG: Signatory powers,Signatory Power
-B000001,L000000002,2-Feb-02,DP_044,MG_003,MG: Governing body name,Governing body Name
-B000001,L000000002,2-Feb-02,DP_045,MG_003,MG: Function of the manager,Manager Function
-B000001,L000000002,2-Feb-02,DP_046,MG_003,MG: Type of manager,Type of Manager
-B000001,L000000002,2-Feb-02,DP_050,MG_003,MG: Signatory powers,Signatory Power
-B000001,L000000002,2-Feb-02,DP_044,MG_004,MG: Governing body name,Governing body Name
-B000001,L000000002,2-Feb-02,DP_045,MG_004,MG: Function of the manager,Manager Function
-B000001,L000000002,2-Feb-02,DP_046,MG_004,MG: Type of manager,Type of Manager
-B000001,L000000002,2-Feb-02,DP_050,MG_004,MG: Signatory powers,Signatory Power
-B000001,L000000003,3-Mar-03,DP_004,,Duration extended,TRUE
-B000001,L000000003,3-Mar-03,DP_005,,Duration end date,31-Dec-50
-B000001,L000000003,3-Mar-03,DP_040,MG_002,Mandate: unlimited,TRUE
-B000001,L000000003,3-Mar-03,DP_040,MG_004,Mandate: unlimited,TRUE
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,

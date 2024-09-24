@@ -134,10 +134,11 @@ def page_entity_smo():
     df = pd.read_csv('../../Sample_Data.csv', encoding='iso-8859-1')
     df1 = df.query('DP_ID in @dp_fields')
 
-    pivot_df1 = df1.pivot_table(index=['RCS_ID', 'Filing_Date'], columns='DP_Name', values='DP_Value', aggfunc='first').reset_index()
+    pivot_df1 = df1.pivot_table(index=['RCS_ID', 'Filing_Date', 'Unique_ID'], columns='DP_Name', values='DP_Value', aggfunc='first').reset_index()
     pivot_df1['Filing_Date'] = pd.to_datetime(pivot_df1['Filing_Date'], format='mixed')
     df_sorted1 = pivot_df1.sort_values(by='Filing_Date', ascending=False)
-    latest1 = df_sorted1.groupby('RCS_ID').first().reset_index()
+    latest1 = df_sorted1.groupby(['RCS_ID', 'Unique_ID']).first().reset_index()
+    latest1 = latest1[latest1['Unique_ID'] != 'FALSE']
     latest1['Filing_Date'] = datetime.now().date().strftime('%m/%d/%Y')
     latest1['Entity Name']  = 'FALSE'
     latest1['Registration Number']  = 'FALSE'
